@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "183702474074",
+    "firebase_url": "https://gradit-a69b9.firebaseio.com",
+    "project_id": "gradit-a69b9",
+    "storage_bucket": "gradit-a69b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183702474074:android:62d7e5c32342b5e4",
+        "android_client_info": {
+          "package_name": "com.licenta.sabina.gradit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183702474074-0cjm5uj052fo6eduiq22168pvbggf0v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.licenta.sabina.gradit",
+            "certificate_hash": "e3a2d5dcf7c085ce144c26ea0bffa942163eb489"
+          }
+        },
+        {
+          "client_id": "183702474074-4rss6kuq1ut2dm9gvt1o6aa7oa5bertq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxkkFXoAAKkney0UIUlyM8j0ytdZSXPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183702474074-4rss6kuq1ut2dm9gvt1o6aa7oa5bertq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

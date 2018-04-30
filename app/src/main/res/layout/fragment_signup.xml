@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.licenta.sabina.gradit.Fragments.SignUpFragment">
+
+<EditText
+    android:id="@+id/input_email_sign_up"
+    android:layout_width="300dp"
+    android:layout_height="56dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="92dp"
+    android:textColorHint="#8effffff"
+    android:paddingEnd="32dp"
+    android:background="@drawable/bubble"
+    android:gravity="center_vertical"
+    android:paddingStart="32dp"
+    android:hint="@string/email"
+    android:inputType="textEmailAddress"
+    android:textColor="#ffffff" />
+
+
+<EditText
+    android:id="@+id/input_password_sign_up"
+    android:layout_width="300dp"
+    android:layout_height="56dp"
+    android:paddingEnd="32dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/bubble"
+    android:textColorHint="#8effffff"
+    android:gravity="center_vertical"
+    android:paddingStart="32dp"
+    android:hint="@string/password"
+    android:textColor="#ffffff"
+    android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/input_password_confirm_sign_up"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bubble"
+        android:gravity="center_vertical"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#8effffff" />
+    <TextView
+        android:id="@+id/invalid_message_2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:paddingEnd="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:paddingStart="32dp"
+        android:textColor="#F91818"
+        android:visibility="invisible"
+        android:text="Error"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@layout/sign_up_button_shape"
+        android:gravity="center_vertical"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:textColor="#8effffff"
+        android:textAlignment="center"
+        android:text="@string/sign_up"
+        />
+
+</LinearLayout>
